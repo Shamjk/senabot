@@ -5,7 +5,7 @@ function intro_calcular() {
         steps: [
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_intro.mp3" type="audio/mpeg"></audio></div><img class="senabot-img" src="imagenes/undraw/senabot.png" width="280px" alt=""">',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_intro.wav" type="audio/mpeg"></audio></div><img class="senabot-img" src="imagenes/undraw/senabot.png" width="280px" alt=""">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -13,7 +13,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><br><strong><h4 class="text-success">Formato F023 seguimiento (parcial) versión 5</h4></strong><br><audio autoplay class="audio-intro" controls><source src="audios/f023-02_v5/f023-2_intro.mp3" type="audio/mpeg"></audio></div><img class="senabot-img" src="imagenes/undraw/senabot.png" width="280px" alt=""">',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><br><strong><h4 class="text-success">Formato F023 Momento N°2 (Seguimiento) Versión 6</h4></strong><br><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-2_intro.wav" type="audio/mpeg"></audio></div><img class="senabot-img" src="imagenes/undraw/senabot.png" width="280px" alt=""">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -21,15 +21,15 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById('intro1'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-02_v5/f023-2-inicio.mp3" type="audio/mpeg"></audio></div>', step: 1
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-02_v5/f023-2-inicio.wav" type="audio/mpeg"></audio></div>', step: 1
             },
             {
                 element: document.getElementById('intro2'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-02_v5/f023-2_1.mp3" type="audio/mpeg"></audio></div>', step: 2
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-02_v5/f023-2_1.wav" type="audio/mpeg"></audio></div>', step: 2
             },
             {
                 element: document.getElementById('intro3'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-02_v5/f023-2_2.mp3" type="audio/mpeg"></audio></div>', step: 3
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-02_v5/f023-2_2.wav" type="audio/mpeg"></audio></div>', step: 3
             },
             {
                 element: document.getElementById('intro4'),
@@ -70,7 +70,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById('intro13'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-02_v5/f023-2_firma.mp3" type="audio/mpeg"></audio></div>', step: 13
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-02_v5/f023-2_firma.wav" type="audio/mpeg"></audio></div>', step: 13
             },
 
 

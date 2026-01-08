@@ -5,7 +5,7 @@ function intro_calcular() {
         steps: [
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_intro.mp3" type="audio/mpeg"></audio></div><img class="senabot-img" src="imagenes/undraw/senabot.png" width="280px" alt=""">',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_intro.wav" type="audio/mpeg"></audio></div><img class="senabot-img" src="imagenes/undraw/senabot.png" width="280px" alt=""">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -13,7 +13,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><br><strong><h4 class="text-success">Formato F023 planeación (concertación) versión 5</h4></strong><br><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_2.mp3" type="audio/mpeg"></audio></div><img class="senabot-img" src="imagenes/undraw/senabot.png" width="280px" alt=""">',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><br><strong><h4 class="text-success">Formato F023 Momento N°1 (Planeación) Versión 6</h4></strong><br><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_2.wav" type="audio/mpeg"></audio></div><img class="senabot-img" src="imagenes/undraw/senabot.png" width="280px" alt=""">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -21,73 +21,72 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById('intro1'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_3.mp3" type="audio/mpeg"></audio></div>', step: 1
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_3.wav" type="audio/mpeg"></audio></div>', step: 1
             },
             {
                 element: document.getElementById('intro2'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_4.mp3" type="audio/mpeg"></audio></div>', step: 2
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_4.wav" type="audio/mpeg"></audio></div>', step: 2
             },
             {
                 element: document.getElementById('intro3'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_5.mp3" type="audio/mpeg"></audio></div>', step: 3
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_5.wav" type="audio/mpeg"></audio></div>', step: 3
             },
             {
                 element: document.getElementById('intro4'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_6.mp3" type="audio/mpeg"></audio></div>', step: 4
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_6.wav" type="audio/mpeg"></audio></div>', step: 4
             },
             {
                 element: document.getElementById('intro5'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_7.mp3" type="audio/mpeg"></audio></div>', step: 5
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_7.wav" type="audio/mpeg"></audio></div>', step: 5
             },
             {
                 element: document.getElementById('intro6'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_8.mp3" type="audio/mpeg"></audio></div>', step: 6
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_8.wav" type="audio/mpeg"></audio></div>', step: 6
             },
             {
                 element: document.getElementById('intro7'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_9.mp3" type="audio/mpeg"></audio></div>', step: 7
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_9.wav" type="audio/mpeg"></audio></div>', step: 7
             },
             {
                 element: document.getElementById('intro8'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_10.mp3" type="audio/mpeg"></audio></div>', step: 8
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_10.wav" type="audio/mpeg"></audio></div>', step: 8
             },
             {
                 element: document.getElementById('intro9'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_11.mp3" type="audio/mpeg"></audio></div>', step: 9
-            },
-            {
-                element: document.getElementById('intro10'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_13.mp3" type="audio/mpeg"></audio></div>', step: 10
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_11.wav" type="audio/mpeg"></audio></div>', step: 9
             },
             {
                 element: document.getElementById('intro11'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_14.mp3" type="audio/mpeg"></audio></div>', step: 11
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_14.wav" type="audio/mpeg"></audio></div>', step: 11
             },
             
             {
                 element: document.getElementById('intro12'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_19.mp3" type="audio/mpeg"></audio></div>', step: 12
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_19.wav" type="audio/mpeg"></audio></div>', step: 12
             },
             {
                 element: document.getElementById('intro13'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_20.mp3" type="audio/mpeg"></audio></div>', step: 13
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_20.wav" type="audio/mpeg"></audio></div>', step: 13
             },
             {
                 element: document.getElementById('intro14'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_21.mp3" type="audio/mpeg"></audio></div>', step: 14
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_21.wav" type="audio/mpeg"></audio></div>', step: 14
             },
             {
                 element: document.getElementById('intro15'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_22.mp3" type="audio/mpeg"></audio></div>', step: 15
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_22.wav" type="audio/mpeg"></audio></div>', step: 15
             },
             {
                 element: document.getElementById('intro16'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_23.mp3" type="audio/mpeg"></audio></div>', step: 16
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_23.wav" type="audio/mpeg"></audio></div>', step: 16
             },
-
+            {
+                element: document.getElementById('intro16-2'),
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_23-2.wav" type="audio/mpeg"></audio></div>', step: 16-2
+            },
             {
                 element: document.getElementById('intro17'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_24.mp3" type="audio/mpeg"></audio></div>', step: 17
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_24.wav" type="audio/mpeg"></audio></div>', step: 17
             },
 
 

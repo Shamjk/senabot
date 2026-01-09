@@ -13,7 +13,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><br><strong><h4 class="text-success">Bitácora 147 versión 5</h4></strong><br><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_general.wav" type="audio/mpeg"></audio></div><img class="senabot-img" src="imagenes/undraw/senabot.png" width="280px" alt=""">',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><br><strong><h4 class="text-success">Bitácora 147 Versión 5</h4></strong><br><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_general.wav" type="audio/mpeg"></audio></div><img class="senabot-img" src="imagenes/undraw/senabot.png" width="280px" alt=""">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X

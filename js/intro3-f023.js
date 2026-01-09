@@ -112,50 +112,7 @@ function intro_calcular() {
                 intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-03_v5/f023-3_21.mp3" type="audio/mpeg"></audio></div>', step: 24
             },
 
-            {
-                element: document.getElementById('intro25'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-03_v5/f023-3_22.wav" type="audio/mpeg"></audio></div>', step: 25
-            },
-
-            {
-                element: document.getElementById('intro26'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-03_v5/f023-3_4.mp3" type="audio/mpeg"></audio></div>', step: 26
-            },
-
-            {
-                element: document.getElementById('intro27'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-03_v5/f023-3_23.mp3" type="audio/mpeg"></audio></div>', step: 27
-            },
-            {
-                element: document.getElementById('intro28'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-03_v5/f023-3_24.mp3" type="audio/mpeg"></audio></div>', step: 28
-            },
-            {
-                element: document.getElementById('intro29'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-03_v5/f023-3_6.mp3" type="audio/mpeg"></audio></div>', step: 29
-            },
-            {
-                element: document.getElementById('intro30'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-03_v5/f023-3_7.mp3" type="audio/mpeg"></audio></div>', step: 30
-            },
-            {
-                element: document.getElementById('intro31'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-03_v5/f023-3_24.mp3" type="audio/mpeg"></audio></div>', step: 31
-            },
-            {
-                element: document.getElementById('intro32'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-03_v5/f023-3_6.mp3" type="audio/mpeg"></audio></div>', step: 32
-            },
-            {
-                element: document.getElementById('intro33'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-03_v5/f023-3_.wav" type="audio/mpeg"></audio></div>', step: 33
-            },
-            {
-                element: document.getElementById('intro34'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/f023-03_v5/f023-3_firma.wav" type="audio/mpeg"></audio></div>', step: 34
-            },
-
-
+           
 
 
         ]

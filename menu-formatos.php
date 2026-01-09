@@ -27,7 +27,7 @@ include "include.php"
 
 <br>
 <style>
-  .bg-full{
+.bg-full{
     height:60vh;
     background-image: url('imagenes/informes/EP-f023-01-1.png');
     background-size: cover;
@@ -35,16 +35,39 @@ include "include.php"
     background-position-y: 0%;
     margin-bottom:20px;
     cursor: pointer;
-  }
+}
 
-  .bg-full:hover{
+.bg-full:hover{
     border: 2px solid green;
     box-shadow: 5px 5px 0px 0px;
-  }
+}
 </style>
-  <div class="container">
+<div class="container">
     <h2 class="text-center mt-4 text-">Elige el formato que quieres <span class="text-success">diligenciar</span></h2>
-      <div class="row mt-3">
+    <div class="row mt-3">
+        <div class="col-lg-3 mt-3 col-md-6">
+            <div class="card mt-5 mt-md-0">
+                <div class="card-header p-0  position-relative z-index-2">
+                    <a class="d-block blur-shadow-image">
+                        <img src="imagenes/project/bitacoras.png" alt="img-blur-shadow"
+                            class="img-fluid border-radius-lg" loading="lazy">
+                    </a>
+                    <div class="colored-shadow"
+                        style="background-image: url(&quot;imagenes/project/bitacoras.png&quot;);"></div>
+                </div>
+                <div class="card-body pt-3">
+                    
+                    <h5 class="text-success">Formato 147 <br> (Bitácoras)</h5>
+                    <p>
+                        Aprende a diligenciar el formato F147
+                    </p>
+                    <a href="bitacora.html">
+                    <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
         <div class="col-lg-3 mt-3 col-md-6">
             <div class="card mt-5 mt-md-0">
                 <div class="card-header p-0  position-relative z-index-2">
@@ -57,14 +80,13 @@ include "include.php"
                 </div>
                 <div class="card-body pt-3">
                     
-                    <h5 class="text-success">Formato F023 Planeación (Concertación)</h5>
+                    <h5 class="text-success">Formato F023 <br>Momento - 1</h5>
                     <p>
-                        Aprende a diligenciar los formatos F023
+                        Concertación inicial de tus actividades
                     </p>
                     <a href="f023-01.html">
-                      <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
+                    <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
                     </a>
-                    
                 </div>
             </div>
         </div>
@@ -76,16 +98,16 @@ include "include.php"
                             class="img-fluid border-radius-lg" loading="lazy">
                     </a>
                     <div class="colored-shadow"
-                        style="background-image: url(&quot;imagenes/project/concertacion.png&quot;);"></div>
+                        style="background-image: url(&quot;imagenes/project/parcial.png&quot;);"></div>
                 </div>
                 <div class="card-body pt-3">
                     
-                    <h5 class="text-success">Formato F023 Seguimiento (Parcial)</h5>
+                    <h5 class="text-success">Formato F023 <br>Momento - 2 </h5>
                     <p>
-                        Aprende a diligenciar los formatos F023
+                        Seguimiento de Mitad <br>del Proceso
                     </p>
                     <a href="f023-02.html">
-                      <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
+                    <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
                     </a>
                 </div>
             </div>
@@ -102,94 +124,116 @@ include "include.php"
                 </div>
                 <div class="card-body pt-3">
                     
-                    <h5 class="text-success">Formato F023 Evaluación (Final)</h5>
+                    <h5 class="text-success">Formato F023 <br> Momento - 3</h5>
                     <p>
-                        Aprende a diligenciar los formatos F023
+                        Seguimiento final del proceso 
                     </p>
                     <a href="f023-03.html">
-                      <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
+                    <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
                     </a>
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 mt-3 col-md-6">
-            <div class="card mt-5 mt-md-0">
-                <div class="card-header p-0  position-relative z-index-2">
-                    <a class="d-block blur-shadow-image">
-                        <img src="imagenes/project/bitacoras.png" alt="img-blur-shadow"
-                            class="img-fluid border-radius-lg" loading="lazy">
-                    </a>
-                    <div class="colored-shadow"
-                        style="background-image: url(&quot;imagenes/project/bitacoras.png&quot;);"></div>
-                </div>
-                <div class="card-body pt-3">
-                    
-                    <h5 class="text-success">Formato F147 (Bitácoras)</h5>
-                    <p>
-                        Aprende a diligenciar el formatos F147 
-                    </p>
-                    <a href="bitacora.html">
-                      <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-      </div>
-  </div>
-  <section class="resume mt-2 py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+    </div>
+</div>
+<section class="resume mt-2 py-5 d-lg-flex justify-content-center align-items-center" id="resume">
         <div class="container">
             <div class="row">
 
             <style>
-              .timeline-sebas {
+            .timeline-yr {
+                background: #474559;
+                border-radius: 100%;
+                position: absolute;
+                width: 55px;
+                height: 55px;
+                line-height: 5px;
+                align: left;
+            }
+            .timeline-sebas {
                 position: relative;
-                padding: 22px 0;
-              }
-              .timeline-sebas:last-child:before {
+                padding: 12px 0;
+            }
+            .timeline-sebas:last-child:before {
                 height: 0;
-              }
-              .timeline-sebas:before {
+            }
+            .timeline-sebas:before {
                 content: "";
                 background: #28a745;
                 width: 3px;
                 height: 100%;
                 position: absolute;
-                left: 38px;
-              }
+                left: 28px;
+            }
             </style>
 
             <div class="col-lg-6 col-12">
-                  <h2 class="mb-4">¿Cómo deben de llamarse mis <span class="text-success">Informes</span>?</h2>
+                <h2 class="mb-4">¿Cómo deben de llamarse <br>mis <span class="text-success">Informes</span>?</h2>
     
                     <div class="timeline ">
-                        <div class="timeline-sebas">
-                             <div class="timeline-yr bg-success">
-                                  <span>1</span>
-                             </div>
-                             <div class="timeline-info ">
-                                 
-                                  <p>Los informes de seguimiento solo se los deben entregar o enviar a su instructor de seguimiento </p>
-                             </div>
-                        </div>
+                        <p>Es importante que sigas las siguientes recomendaciones de la nomenclatura 
+                            para facilitar la identificación de cada una de tus Bitácoras tal como se muestra en la imagen; de la siguiente forma: </p>
 
                         <div class="timeline-sebas ">
                             <div class="timeline-yr bg-success">
-                                <span>2</span>
                             </div>
                             <div class="timeline-info">
-                                <h5><span>No. De informes de Seguimiento:</span><small></small></h5>
-                                <p>Para los aprendices que iniciaron Etapa Productiva en el año 2022, recuerden que los informes de seguimiento son 15 (3 formatos 023 y 12 Bitácoras en el formato 147). </p>
-                                <p>Para los aprendices que iniciaron y terminaron Etapa Productiva en el año 2021, recuerden que los informes de seguimiento son 12 (3 formatos 023 y 09 Bitácoras en el formato 147) </p>
+                                <h5><span>EP</span><small></small></h5>
+                                <p>Significa Etapa Productiva </p>
                             </div>
                         </div>
 
-                        <div class="timeline-wrapper">
+                        <div class="timeline-sebas">
                             <div class="timeline-yr bg-success">
-                                <span>3</span>
                             </div>
                             <div class="timeline-info">
-                               
-                                <p>La nomenclatura que deben llevar los informes (pedro pérez = primer nombre y primer apellido del aprendiz) y miguel calderón = primer nombre y primer apellido del instructor de seguimiento que se le asignó a cada aprendiz</p>
+                                <h5><span>2104688</span><small></small></h5>
+                                <p>Corresponde al número de ficha asignado a tu programa </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-sebas">
+                            <div class="timeline-yr bg-success">
+                            </div>
+                            <div class="timeline-info">
+                                <h5><span>Pedro</span><small></small></h5>
+                                <p>Corresponde al primer nombre del aprendiz </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-sebas">
+                            <div class="timeline-yr bg-success">
+                            </div>
+                            <div class="timeline-info">
+                                <h5><span>Pérez</span><small></small></h5>
+                                <p> Corresponde al primer apellido del aprendiz </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-sebas">
+                            <div class="timeline-yr bg-success">
+                            </div>
+                            <div class="timeline-info">
+                                <h5><span>F147-01</span><small></small></h5>
+                                <p>F147- Corresponde al número del formato y el 01 indica el numero de la bitácora en este caso es la primera </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-sebas">
+                            <div class="timeline-yr bg-success">
+                            </div>
+                            <div class="timeline-info">
+                                <h5><span>Miguel</span><small></small></h5>
+                                <p> Corresponde al primer nombre del instructor de seguimiento </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-sebas">
+                            <div class="timeline-yr bg-success">
+                            </div>
+                            <div class="timeline-info">
+                                <h5><span>Calderón</span><small></small></h5>
+                                <p>Corresponde al primer apellido del instructor de seguimiento</p>
                             </div>
                         </div>
                     </div>

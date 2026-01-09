@@ -50,7 +50,7 @@ include "include.php"
                         <p>¿No sabes diliginciar los formatos de seguimiento de etapa productiva? ¡No te preocupes! Aquí te explicaremos a como diligenciarlos.</p>
                         
                         <div class="custom-btn-group mt-4" >
-                          <a href="menu-formatos.php" class="btn mr-lg-2 custom-btn bg-success  text-white" ><i class='uil uil-file-alt'></i> Como diligenciar 023|147</a>
+                          <a href="menu-formatos.php" class="btn mr-lg-2 custom-btn bg-success  text-white" ><i class='uil uil-file-alt'></i> Como diligenciar formatos Bitácoras y F023</a>
                         </div>
                     </div>
                 </div>
@@ -70,17 +70,17 @@ include "include.php"
         <div class="container">
                 
                 <div class="row">
-                  <div class="col-lg-11 text-center mx-auto col-12">
+                  <div class="col-lg-25 text-center mx-auto col-12">
 
-                      <div class="col-lg-8 mx-auto">
-                        <h2>Genera períodos, Aprende a Diligenciar formatos de seguimiento y Conoce Requisitos de certificación</h2>
-                      </div>
+                      <div class="col-lg-10 mx-auto">
+                        <h2>Genera períodos, Aprende a darle un nombre a cada uno de los formatos una vez los diligencie  y Conoce Requisitos de certificación</h2>
+                      <p> </p> </div>
 
                       <div class="owl-carousel owl-theme">
                       
                         <div class="item">
                           <div class="project-info">
-                            <a href="menu-formatos.php"><img src="imagenes/project/informes.jpg" class="img-fluid" alt="project image"></a>
+                            <a href="menu-formatos.php"><img src="imagenes/project/informee.jpg" class="img-fluid" alt="project image"></a>
                           </div>
                         </div>
 
@@ -131,6 +131,9 @@ include "include.php"
                 height: 100%;
                 position: absolute;
                 left: 38px;
+              } 
+              .timeline-info {
+                color: rgba(95, 95, 95, 1)
               }
             </style>
 
@@ -139,13 +142,13 @@ include "include.php"
     
                     <div class="timeline ">
                         <div class="timeline-sebas">
-                             <div class="timeline-yr bg-success">
+                            <div class="timeline-yr bg-success">
                                   <span>1</span>
-                             </div>
-                             <div class="timeline-info ">
-                                  <h3><span>Inicio de Etapa Productiva</span><a  href="inicio-ep.php"><small></small></a></h3>
-                                  <p>Al iniciar tu etapa productiva debes cumplir con algunos documentos esenciales para las afiliaciones y seguros, EPS, ARL, camara de comercio, etc.</p>
-                             </div>
+                            </div>
+                            <div class="timeline-info ">
+                                  <h4><span>Diligenciar el formato GFPI-f165 para seleccionar su Etapa Productiva</span><a  href="inicio-ep.php"><small>
+                                  </small></a></h4>
+                            </div>
                         </div>
 
                         <div class="timeline-sebas ">
@@ -153,18 +156,36 @@ include "include.php"
                                 <span>2</span>
                             </div>
                             <div class="timeline-info">
-                                <h3><span>Seguimiento</span><small></small></h3>
-                                <p>El seguimiento de Etapa Productiva, consta de un instructor de seguimiento e informes que evidencian tu Etapa Práctica <a rel="nofollow" href="form-seguimiento.php">click para saber cuales son</a></p>
+                                <h4><span>Conseguir el aval en coordinación académica de la alternativa que seleccionaste para hacer tu etapa productiva.</span>
+                                <small></small></h4>
                             </div>
                         </div>
 
-                        <div class="timeline-wrapper">
+                        <div class="timeline-sebas">
                             <div class="timeline-yr bg-success">
                                 <span>3</span>
                             </div>
                             <div class="timeline-info">
-                                <h3><span>Certificación</h3>
-                                <p>Para certificarte debes cumplir con requisitos fundamentales para tu certificación tanto como pruebas icfes, TYT, Cedúla, APE, etc.<a rel="nofollow" href="req-certificacion.php">click para saber cuales son</a></p>
+                                <h4><span>Verificar en Sofia Plus que la alternativa seleccionada aparezca y sea la correcta, 
+                                  <a rel="nofollow" href="req-certificacion.php">click para saber cuales son.</a> </span><small></small> </h4>
+                            </div>
+                        </div>
+
+                        <div class="timeline-sebas ">
+                            <div class="timeline-yr bg-success">
+                                <span>4</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h4><span>Asegurarse de que le sea asignado un Instructor de seguimiento para que le apoye el proceso.</span><small></small></h4>
+                            </div>
+                        </div>
+
+                        <div class="timeline-sebas ">
+                            <div class="timeline-yr bg-success">
+                                <span>5</span>
+                            </div>
+                            <div class="timeline-info">
+                              <h4><span> Estar atentos a los plazos asignados para la entrega de sus evidencias y para entrega de papeles para su certificación .</span><small></small></h4>
                             </div>
                         </div>
                     </div>
@@ -203,9 +224,9 @@ include "include.php"
                 </div>
 
                 <ul class="social-links">
-                     <li><a href="https://www.facebook.com/SENA" class="uil uil-facebook" data-toggle="tooltip" data-placement="left" title="Facebook" target="_blank"></a></li>
-                     <li><a href="https://www.instagram.com/senacesar_/" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram" target="_blank"></a></li>
-                     <li><a href="https://www.youtube.com/@bienestaralaprendizsenacbc6155" class="uil uil-youtube" data-toggle="tooltip" data-placement="left" title="Youtube" target="_blank"></a></li>
+                    <li><a href="https://www.facebook.com/SENA" class="uil uil-facebook" data-toggle="tooltip" data-placement="left" title="Facebook" target="_blank"></a></li>
+                    <li><a href="https://www.instagram.com/senacesar_/" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram" target="_blank"></a></li>
+                    <li><a href="https://www.youtube.com/@bienestaralaprendizsenacbc6155" class="uil uil-youtube" data-toggle="tooltip" data-placement="left" title="Youtube" target="_blank"></a></li>
                 </ul>
             </div>
           </div>
@@ -213,10 +234,15 @@ include "include.php"
           <div class="col-lg-6 col-12">
             <div class="contact-form">
               <h2 class="mb-4">¿Tienes dudas?</h2>
-              <p>Este espacio fue diseñado solo para solicitar apoyo relacionado con el tema de informes, asegurese de haber explorado previamente el sitio web, o recurre a la oficina de coordinación académica de tu centro. </p>
-              <div class="ml-lg-auto text-center col-lg-5 col-12">
-                <a href="https://forms.office.com/r/updHnZx4Uh" class="btn mr-lg-2 custom-btn bg-success  text-white"  data-toggle="tooltip" data-placement="left" title="Youtube" target="_blank" ></i>Contáctanos</a>
-              </div>
+              <p>El Sena cuenta con un canal en YouTube en donde encontrara videos informativos con los que se puede apoyar en temas como:
+                <br>- Aspectos claves para el diligenciamiento de formatos.
+                <br>- Explicación de las diferentes Alternativas para hacer la Etapa Productiva.
+                <br>- Requisitos previos para hacer la Etapa Productiva, entre muchos otros más. </p>
+                <h4> Suscríbete al Canal de videos  del SENA  </h4> 
+                <a href="https://www.youtube.com/channel/UCH2WKGaNZ3KgfLfCLiV73vw/videos">https://www.youtube.com/channel/UCH2WKGaNZ3KgfLfCLiV73vw/videos</a>
+
+                <h4>Correo institucional Etapa Productiva</h4> 
+                <a href="mailto:productivacbc@sena.edu.co">productivacbc@sena.edu.co</a>
 
               <img src="imagenes/undraw/ask1.svg" class="img-fluid mt-3" alt="svg image">
               

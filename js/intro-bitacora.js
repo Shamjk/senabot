@@ -5,7 +5,7 @@ function intro_calcular() {
         steps: [
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_intro.mp3" type="audio/mpeg"></audio></div><img class="senabot-img" src="imagenes/undraw/senabot.png" width="280px" alt=""">',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/f023-01_v5/f023-1_intro.wav" type="audio/mpeg"></audio></div><img class="senabot-img" src="imagenes/undraw/senabot.png" width="280px" alt=""">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -13,7 +13,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><br><strong><h4 class="text-success">Bitácora 147 versión 4</h4></strong><br><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_general.mp3" type="audio/mpeg"></audio></div><img class="senabot-img" src="imagenes/undraw/senabot.png" width="280px" alt=""">',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><br><strong><h4 class="text-success">Bitácora 147 versión 5</h4></strong><br><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_general.wav" type="audio/mpeg"></audio></div><img class="senabot-img" src="imagenes/undraw/senabot.png" width="280px" alt=""">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -21,69 +21,73 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById('intro2'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_1.mp3" type="audio/mpeg"></audio></div>', step: 2
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_1.wav" type="audio/mpeg"></audio></div>', step: 2
             },
             {
                 element: document.getElementById('intro3'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_2.mp3" type="audio/mpeg"></audio></div>', step: 3
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_2.wav" type="audio/mpeg"></audio></div>', step: 3
             },
             {
                 element: document.getElementById('intro4'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_3.mp3" type="audio/mpeg"></audio></div>', step: 4
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_3.wav" type="audio/mpeg"></audio></div>', step: 4
             },
             {
                 element: document.getElementById('intro5'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_4.mp3" type="audio/mpeg"></audio></div>', step: 5
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_4.wav" type="audio/mpeg"></audio></div>', step: 5
             },
             {
                 element: document.getElementById('intro6'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_5.mp3" type="audio/mpeg"></audio></div>', step: 6
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_5.wav" type="audio/mpeg"></audio></div>', step: 6
             },
             {
                 element: document.getElementById('intro7'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_6.mp3" type="audio/mpeg"></audio></div>', step: 7
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_6.wav" type="audio/mpeg"></audio></div>', step: 7
             },
             {
                 element: document.getElementById('intro8'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_7.mp3" type="audio/mpeg"></audio></div>', step: 8
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_7.wav" type="audio/mpeg"></audio></div>', step: 8
+            },
+            {
+                element: document.getElementById('intro8-2'),
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_7-2.wav" type="audio/mpeg"></audio></div>', step: 8-2
             },
             {
                 element: document.getElementById('intro9'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_8.mp3" type="audio/mpeg"></audio></div>', step: 9
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_8.wav" type="audio/mpeg"></audio></div>', step: 9
             },
             {
                 element: document.getElementById('intro10'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_9.mp3" type="audio/mpeg"></audio></div>', step: 10
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_9.wav" type="audio/mpeg"></audio></div>', step: 10
             },
             {
                 element: document.getElementById('intro11'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_10.mp3" type="audio/mpeg"></audio></div>', step: 11
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_10.wav" type="audio/mpeg"></audio></div>', step: 11
             },
             
             {
                 element: document.getElementById('intro12'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_11.mp3" type="audio/mpeg"></audio></div>', step: 12
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_11.wav" type="audio/mpeg"></audio></div>', step: 12
             },
             {
                 element: document.getElementById('intro13'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_12.mp3" type="audio/mpeg"></audio></div>', step: 13
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_12.wav" type="audio/mpeg"></audio></div>', step: 13
             },
             {
                 element: document.getElementById('intro14'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_13.mp3" type="audio/mpeg"></audio></div>', step: 14
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_13.wav" type="audio/mpeg"></audio></div>', step: 14
             },
             {
                 element: document.getElementById('intro15'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_14.mp3" type="audio/mpeg"></audio></div>', step: 15
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_14.wav" type="audio/mpeg"></audio></div>', step: 15
             },
             {
                 element: document.getElementById('intro16'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_15.mp3" type="audio/mpeg"></audio></div>', step: 16
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_15.wav" type="audio/mpeg"></audio></div>', step: 16
             },
 
             {
                 element: document.getElementById('intro17'),
-                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_16.mp3" type="audio/mpeg"></audio></div>', step: 17
+                intro: '<div class="btn mb-0 subtitulos"><audio autoplay class="audio-intro" controls><source src="audios/bitacoras/bitacora_16.wav" type="audio/mpeg"></audio></div>', step: 17
             },
 
 

@@ -86,12 +86,6 @@ include "include.php"
 
                         <div class="item">
                           <div class="project-info">
-                            <a href="descargas.php"><img src="imagenes/project/descargar.jpg" class="img-fluid" alt="project image"></a>
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
                             <a href="generador.php"><img href="generador.php" src="imagenes/project/periodo.jpg" class="img-fluid" alt="project image"></a>
                           </div>
                         </div>
@@ -166,8 +160,7 @@ include "include.php"
                                 <span>3</span>
                             </div>
                             <div class="timeline-info">
-                                <h4><span>Verificar en Sofia Plus que la alternativa seleccionada aparezca y sea la correcta, 
-                                  <a rel="nofollow" href="req-certificacion.php">click para saber cuales son.</a> </span><small></small> </h4>
+                                <h4><span>Verificar en Sofia Plus que la alternativa seleccionada aparezca y sea la correcta.</h4>
                             </div>
                         </div>
 
@@ -185,7 +178,9 @@ include "include.php"
                                 <span>5</span>
                             </div>
                             <div class="timeline-info">
-                              <h4><span> Estar atentos a los plazos asignados para la entrega de sus evidencias y para entrega de papeles para su certificación .</span><small></small></h4>
+                              <h4><span> Estar atentos a los plazos asignados para la entrega de sus evidencias y para entrega de papeles para su certificación, 
+                                <a rel="nofollow" href="req-certificacion.php">click para saber cuales son.</a> </span><small></small> 
+                              </span><small></small></h4>
                             </div>
                         </div>
                     </div>
@@ -216,11 +211,19 @@ include "include.php"
             </div>
 
             <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
-                <div class="contact-info-item">
-                  <h3 class="mb-3 text-white">Centro biotecnologico del Caribe</h3>
+                <div>
+                  <h3 class="mb-3 text-white">Centro Biotecnológico del Caribe</h3>
                   <p class="footer-text mb-0">+57 1 3430111</p>
-                  <p><a href="mailto:servicioalciudadano@sena.edu.co">servicioalciudadano@sena.edu.co</a></p>
-                  <p>Kilometro 7 via la paz</p>                
+                  <p><a href="mailto:servicioalciudadano@sena.edu.co" target="_blank">servicioalciudadano@sena.edu.co</a></p>
+                  <p>Kilómetro 7 Vía La Paz</p><br>
+                  <div>
+                    <h5 style="font-size: 15px; color:white;">Subdirector de Centro (E)</h5> 
+                    <p style="font-size: 14px;">Jose Pena Caceres    <a href="mailto:jospenac@sena.edu.co"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16"><path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/><path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/></svg></a></p>
+                    <h5 style="font-size: 15px; color:white;">Coordinador Misional</h5> 
+                    <p style="font-size: 14px;">Jose Daniel Lopez Marin   <a href="mailto:jdlopezm@sena.edu.co"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16"><path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/><path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/></svg></a></p>   
+                    <h5 style="font-size: 15px; color:white;">Coordinadores Académicos</h5> 
+                    <p style="font-size: 14px;">Marco Antonio Perales Molina   <a href="mailto:maperales@sena.edu.co"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16"><path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/><path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/></svg></a><br>Ciro Carlos Jimenez Cujia   <a href="mailto:ccjimenezc@soy.sena.edu.co"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16"><path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/><path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/></svg></a></p>  
+                  </div>      
                 </div>
 
                 <ul class="social-links">
@@ -280,7 +283,7 @@ include "include.php"
     </section>
 
     
-     <p class="mt-5 mb-3 text-center text-muted">Created ❤️ By Sebastián Pitre & Jhonatan Camelo <br> &copy; Versión 2.0</p> 
+     <p class="mt-5 mb-3 text-center text-muted">Created ❤️ By Sebastián Pitre & Jhonatan Camelo <br>Updated on 2026 By Ángel Acosta & Sharol Baute<br> &copy; Versión 3.0</p> 
     
 
     <script src="js/jquery-3.3.1.min.js"></script>

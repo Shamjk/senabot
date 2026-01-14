@@ -63,7 +63,7 @@
     </div>
   </div>
 
-  <p class="mt-5 mb-3 text-muted">&copy; Versión 2.0</p>
+  <p class="mt-5 mb-3 text-muted">&copy; Versión 3.0</p>
 
   <!-- form -->
 

@@ -83,7 +83,7 @@
                 <table id="cesar" class="rwd-table" >
                     <thead>
                       <tr>
-                             <th class="text-center">CONCERTACION</th> 
+                             <th class="text-center">MOMENTO 1</th> 
                             <th class="text-center">BITÁCORA 1</th> 
                             <th class="text-center"></th>
                             <th class="text-center">BITÁCORA 2</th>
@@ -96,7 +96,7 @@
                             <th class="text-center"></th>
                             <th class="text-center">BITÁCORA 6</th>
                             <th class="text-center"></th>
-                            <th class="text-center">PARCIAL</th>
+                            <th class="text-center">MOMENTO 2</th>
                             <th class="text-center"></th> 
                             <th class="text-center">BITACORA 7</th> 
                             <th class="text-center"></th> 
@@ -110,7 +110,7 @@
                             <th class="text-center"></th>
                             <th class="text-center">BITÁCORA 12</th>
                             <th class="text-center"></th>
-                            <th class="text-center">FINAL</th>
+                            <th class="text-center">MOMENTO 3</th>
                             <th class="text-center"></th> 
                         </tr>
                         <tr>

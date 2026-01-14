@@ -256,7 +256,7 @@ include "include.php"
         </div>
     </section>
     
-    <p class="mt-5 mb-3 text-center text-muted">Created ❤️ By Sebastián Pitre & Jhonatan Camelo <br> &copy; Versión 2.0</p> 
+    <p class="mt-5 mb-3 text-center text-muted">Created ❤️ By Sebastián Pitre & Jhonatan Camelo <br>Updated on 2026 By Ángel Acosta & Sharol Baute<br>&copy; Versión 3.0</p> 
     
     
 

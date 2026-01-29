@@ -63,6 +63,7 @@ include "include.php"
                     </p>
                     <a href="bitacora.html">
                     <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
+                     <a href="informes/GFPI-F-147FormatoBitacoraSeguimientoEtapaProductiva.xlsx" class="btn btn-primary btn-sm mb-0">Descargar</a>
                     </a>
                     
                 </div>
@@ -86,6 +87,7 @@ include "include.php"
                     </p>
                     <a href="f023-01.html">
                     <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
+                     <a href="informes/GFPI-F-023V06.FormatodePlaneacionSeguimientoyEvaluaciondeEtapaProductiva.docx" class="btn btn-primary btn-sm mb-0">Descargar</a>
                     </a>
                 </div>
             </div>
@@ -104,10 +106,11 @@ include "include.php"
                     
                     <h5 class="text-success">Formato F023 <br>Momento - 2 </h5>
                     <p>
-                        Seguimiento de Mitad <br>del Proceso
+                        Seguimiento de la mitad del proceso.
                     </p>
                     <a href="f023-02.html">
                     <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
+                     <a href="informes/GFPI-F-023V06.FormatodePlaneacionSeguimientoyEvaluaciondeEtapaProductiva.docx" class="btn btn-primary btn-sm mb-0">Descargar</a>
                     </a>
                 </div>
             </div>
@@ -126,10 +129,11 @@ include "include.php"
                     
                     <h5 class="text-success">Formato F023 <br> Momento - 3</h5>
                     <p>
-                        Seguimiento final del proceso 
+                        Seguimiento final del proceso.
                     </p>
                     <a href="f023-03.html">
                     <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
+                     <a href="informes/GFPI-F-023V06.FormatodePlaneacionSeguimientoyEvaluaciondeEtapaProductiva.docx" class="btn btn-primary btn-sm mb-0">Descargar</a>
                     </a>
                 </div>
             </div>
